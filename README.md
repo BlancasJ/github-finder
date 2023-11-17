@@ -6,7 +6,7 @@ The Github Finder App is a web application that allows users to search for GitHu
 This project is built with React, TypeScript, and Material-UI, and is bundled with Vite and Bun.js.
 
 ## Live Demo
-You can access the live version of the app [here](#your-live-app-url).
+You can access the live version of the app [here](https://blancasj.github.io/github-finder/).
 
 ## Mockup
 The UI is based on the provided mockup which can be viewed [here](https://i.imgur.com/VRoAKP7.png).
@@ -19,7 +19,7 @@ The UI is based on the provided mockup which can be viewed [here](https://i.imgu
 
 ## API Reference
 This application consumes the following GitHub API endpoint:
-GET https://api.github.com/users/<username>
+- GET https://api.github.com/users/{username}
 
 ## Prerequisites
 Before running this project, make sure you have [Bun](https://bun.sh/) installed on your system.
@@ -29,7 +29,7 @@ To set up the Evaluation App locally, follow these steps:
 
 1. Clone the repository:
 ```sh
-   git clone https://github.com/{username}/github-finder.git
+   git clone https://github.com/BlancasJ/github-finder.git
 ```
 
 2. Navigate to the project directory:
